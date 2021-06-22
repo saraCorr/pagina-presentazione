@@ -1,0 +1,25 @@
+<html>
+<head>
+  <script src="jquery.js"></script>
+  <link rel="stylesheet" href="eser3.css">
+<!-- CDN link for TweenMax -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.0/TweenMax.min.js"></script>
+</head>
+<body>
+  <div id="q">
+    <div id="pianeta"></div>
+</div>
+</body>
+<script>
+var stato = 0;
+var tween = TweenMax.to("#q", 2, {
+  rotation: "+=360",
+  repeat: -1})
+
+$("#q").on("click", () => {
+  TweenMax.to("#q", 2,{
+    rotation: "-=360",
+    repeat: -1});
+})
+</script>
+</html>

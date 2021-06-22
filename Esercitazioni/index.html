@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <script src="jquery.min.js"></script>
+
+
+<div id="quadrato1" class="centro"></div>
+<div id="quadrato2" class="centro">
+
+
+
+
+
+    <style>
+
+
+    </style>
+
+    </head>
+
+    <body>
+
+
+
+        <script>
+
+        function sposta(){
+          if($("#quadrato2").hasClass("centro")){
+            $("#quadrato2").removeClass("centro");
+            $("#quadrato2").addClass("sposta1");
+            $("#quadrato1").removeClass("centro");
+            $("#quadrato1").addClass("sposta2");
+          }
+        }
+
+
+
+
+
+$("#quadrato2").click(sposta);
+
+        </script>
+
+
+    </body>
+
+</html>

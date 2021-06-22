@@ -1,0 +1,14 @@
+#q{
+  display: inline-block;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top:50%; left:50%;
+  background-color: red;
+}
+
+#pianeta{
+  background-color: blue;
+  height: 30px; width: 30px;
+  transform: translate(200px,0);
+}
